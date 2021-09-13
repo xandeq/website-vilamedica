@@ -154,6 +154,16 @@ if (isset($_POST['emailSent'])) {
 	<!-- Head Libs -->
 	<script src="vendor/modernizr/modernizr.min.js"></script>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GMZM01YWMP"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-GMZM01YWMP');
+	</script>
+
 </head>
 
 <body data-plugin-page-transition>
